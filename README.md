@@ -1,49 +1,85 @@
-🥁 Drum Kit – JavaScript Practice Project
+🥁 Drum Kit
 
-A simple interactive Drum Kit built to practice JavaScript DOM, event handling, and audio playback. Users can play sounds by clicking the drum buttons or pressing the corresponding keyboard keys.
+A fun and interactive JavaScript project that simulates a virtual drum set. Users can play different drum sounds using either mouse clicks or keyboard keys, making it a great exercise for practicing DOM events and audio handling in Vanilla JavaScript.
 
-🚀 Features
+🖼 Project Screenshot
 
-Play drum sounds using keys: w, a, s, d, j, k, l
+(Add your screenshot here)
 
-Click or keyboard support
-
-Button animation when triggered
-
-Clean UI with custom drum images
-
-🛠 Technologies
-
+🛠 Technologies Used
 HTML5
+
+Built the page structure
+
+Created drum buttons mapped to keyboard keys
 
 CSS3
 
+Styled drum buttons with background images
+
+Added animation effects using box-shadow, opacity, and transitions
+
+Responsive and clean UI layout
+
 Vanilla JavaScript
 
+Detected keyboard input with keydown events
 
-📂 Project Structure
-index.html
-styles.css
-index.js
-sounds/
-images/
+Played audio using the Audio constructor
 
-▶️ How to Run
+Added click event listeners dynamically
 
-Download the project.
+Created press animations by toggling CSS classes
 
-Open index.html in your browser.
+✨ Key Features
+🎹 Keyboard Interaction
 
-Press any drum key or click the buttons to play sounds.
+Play drum sounds using these keys:
 
-📘 What I Learned
+Key	Sound
+W	Snare
+A	Kick
+S	Crash
+D	Tom 1
+J	Tom 2
+K	Tom 3
+L	Tom 4
+🖱 Mouse Interaction
 
-Adding event listeners for clicks & key presses
+Click any drum button to play the corresponding sound.
 
-Manipulating the DOM with querySelector
+💡 Visual Feedback
 
-Playing audio using new Audio()
+Buttons animate with a “pressed” effect
 
-Creating simple animations with CSS + JavaScript
+Smooth and fast interaction
+
+🔊 Instant Audio Playback
+
+Each key triggers a new audio object
+
+Allows rapid and repeated drum hits
+
+📚 What I Learned
+
+As a Software Engineering student (Java-focused), this project helped strengthen my frontend foundations:
+
+✔ DOM Events
+
+Using addEventListener("click") and addEventListener("keydown")
+
+Passing event keys to functions for dynamic control
+
+✔ Audio Manipulation
+
+Playing sounds instantly with new Audio().play()
+
+Mapping different keys to different audio files
+
+✔ JS + CSS Integration
+
+Adding/removing CSS classes (classList.add, classList.remove)
+
+Creating a quick animation effect using setTimeout()
 
 Made with ❤️ in VietNam.
