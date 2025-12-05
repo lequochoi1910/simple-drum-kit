@@ -1,33 +1,49 @@
-# 🥁 Virtual Drum Kit
+🥁 Drum Kit – JavaScript Practice Project
 
-A fun, interactive web-based drum kit built with **Vanilla JavaScript**. This project simulates a real drum set, allowing users to play sounds using their computer keyboard.
+A simple interactive Drum Kit built to practice JavaScript DOM, event handling, and audio playback. Users can play sounds by clicking the drum buttons or pressing the corresponding keyboard keys.
 
-![Project Screenshot](./images/screenshot.png)
+🚀 Features
 
-## 🛠 Technologies Used
-*   **HTML5:** Structured the layout and mapped keyboard keys to drum elements.
-*   **CSS3:** Styled the interface, added background images, and created key press animation effects (transform/transition).
-*   **Vanilla JavaScript (ES6):** Handled logic for keydown events, audio playback, and DOM manipulation.
+Play drum sounds using keys: w, a, s, d, j, k, l
 
-## ✨ Key Features
-*   **Keyboard Interaction:** Play sounds by pressing specific keys:
-    *   `A`: Clap
-    *   `S`: Hi-Hat
-    *   `D`: Kick
-    *   `F`: Open-Hat
-    *   `G`: Boom
-    *   `H`: Ride
-    *   `J`: Snare
-    *   `K`: Tom
-    *   `L`: Tink
-*   **Visual Feedback:** Keys light up and scale slightly when pressed to mimic interaction.
-*   **Instant Audio:** Uses HTML5 `<audio>` tags for zero-latency sound playback.
+Click or keyboard support
 
-## 📚 What I Learned
-As a Software Engineering student specializing in Java, this project helped me sharpen my frontend skills:
-1.  **DOM Events:** Deepened understanding of `window.addEventListener('keydown', ...)` to capture user input.
-2.  **Audio Handling:** Learned how to rewind audio (`audio.currentTime = 0`) to allow rapid repetitive play.
-3.  **CSS & JS Integration:** Practiced adding and removing CSS classes (`classList.add`, `transitionend`) dynamically to create smooth animations without complex libraries.
+Button animation when triggered
 
----
-Made with ❤️ by [VIET NAM]
+Clean UI with custom drum images
+
+🛠 Technologies
+
+HTML5
+
+CSS3
+
+Vanilla JavaScript
+
+
+📂 Project Structure
+index.html
+styles.css
+index.js
+sounds/
+images/
+
+▶️ How to Run
+
+Download the project.
+
+Open index.html in your browser.
+
+Press any drum key or click the buttons to play sounds.
+
+📘 What I Learned
+
+Adding event listeners for clicks & key presses
+
+Manipulating the DOM with querySelector
+
+Playing audio using new Audio()
+
+Creating simple animations with CSS + JavaScript
+
+Made with ❤️ in VietNam.
