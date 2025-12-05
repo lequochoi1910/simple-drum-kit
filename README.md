@@ -2,7 +2,7 @@
 
 A fun, interactive web-based drum kit built with **Vanilla JavaScript**. This project simulates a real drum set, allowing users to play sounds using their computer keyboard.
 
-![Project Screenshot](./screenshot.png)
+![Project Screenshot](./images/screenshot.png)
 
 ## 🛠 Technologies Used
 *   **HTML5:** Structured the layout and mapped keyboard keys to drum elements.
